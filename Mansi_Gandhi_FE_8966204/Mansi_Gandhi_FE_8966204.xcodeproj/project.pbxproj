@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAB3E652BC85F2E0063BD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E642BC85F2E0063BD50 /* AppDelegate.swift */; };
+		ECAB3E672BC85F2E0063BD50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E662BC85F2E0063BD50 /* SceneDelegate.swift */; };
+		ECAB3E692BC85F2E0063BD50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E682BC85F2E0063BD50 /* ViewController.swift */; };
+		ECAB3E6C2BC85F2E0063BD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB3E6A2BC85F2E0063BD50 /* Main.storyboard */; };
+		ECAB3E6F2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E6D2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodeld */; };
+		ECAB3E712BC85F2F0063BD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB3E702BC85F2F0063BD50 /* Assets.xcassets */; };
+		ECAB3E742BC85F2F0063BD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB3E722BC85F2F0063BD50 /* LaunchScreen.storyboard */; };
+		ECAB3E882BC85F6E0063BD50 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E7B2BC85F6C0063BD50 /* WeatherModel.swift */; };
+		ECAB3E892BC85F6E0063BD50 /* DirectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E7C2BC85F6C0063BD50 /* DirectionsTableViewCell.swift */; };
+		ECAB3E8A2BC85F6E0063BD50 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E7D2BC85F6C0063BD50 /* News.swift */; };
+		ECAB3E8B2BC85F6E0063BD50 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E7E2BC85F6D0063BD50 /* History.swift */; };
+		ECAB3E8C2BC85F6E0063BD50 /* WeatherDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E7F2BC85F6D0063BD50 /* WeatherDetailTableViewCell.swift */; };
+		ECAB3E8E2BC85F6E0063BD50 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E812BC85F6D0063BD50 /* NewsModel.swift */; };
+		ECAB3E8F2BC85F6E0063BD50 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E822BC85F6D0063BD50 /* Main.swift */; };
+		ECAB3E902BC85F6E0063BD50 /* Cells in Resources */ = {isa = PBXBuildFile; fileRef = ECAB3E832BC85F6D0063BD50 /* Cells */; };
+		ECAB3E912BC85F6E0063BD50 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E842BC85F6D0063BD50 /* Weather.swift */; };
+		ECAB3E922BC85F6E0063BD50 /* DetailNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E852BC85F6E0063BD50 /* DetailNewsTableViewCell.swift */; };
+		ECAB3E932BC85F6E0063BD50 /* NewsDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E862BC85F6E0063BD50 /* NewsDataTableViewCell.swift */; };
+		ECAB3E942BC85F6E0063BD50 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E872BC85F6E0063BD50 /* Map.swift */; };
+		ECAB3E972BC85F7F0063BD50 /* DataSavingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E952BC85F7F0063BD50 /* DataSavingManager.swift */; };
+		ECAB3E982BC85F7F0063BD50 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB3E962BC85F7F0063BD50 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECAB3E612BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mansi_Gandhi_FE_8966204.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB3E642BC85F2E0063BD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECAB3E662BC85F2E0063BD50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECAB3E682BC85F2E0063BD50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECAB3E6B2BC85F2E0063BD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAB3E6E2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mansi_Gandhi_FE_8966204.xcdatamodel; sourceTree = "<group>"; };
+		ECAB3E702BC85F2F0063BD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAB3E732BC85F2F0063BD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAB3E752BC85F2F0063BD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB3E7B2BC85F6C0063BD50 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		ECAB3E7C2BC85F6C0063BD50 /* DirectionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsTableViewCell.swift; sourceTree = "<group>"; };
+		ECAB3E7D2BC85F6C0063BD50 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		ECAB3E7E2BC85F6D0063BD50 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		ECAB3E7F2BC85F6D0063BD50 /* WeatherDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailTableViewCell.swift; sourceTree = "<group>"; };
+		ECAB3E812BC85F6D0063BD50 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		ECAB3E822BC85F6D0063BD50 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		ECAB3E832BC85F6D0063BD50 /* Cells */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cells; sourceTree = "<group>"; };
+		ECAB3E842BC85F6D0063BD50 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		ECAB3E852BC85F6E0063BD50 /* DetailNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNewsTableViewCell.swift; sourceTree = "<group>"; };
+		ECAB3E862BC85F6E0063BD50 /* NewsDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDataTableViewCell.swift; sourceTree = "<group>"; };
+		ECAB3E872BC85F6E0063BD50 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		ECAB3E952BC85F7F0063BD50 /* DataSavingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSavingManager.swift; sourceTree = "<group>"; };
+		ECAB3E962BC85F7F0063BD50 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAB3E5E2BC85F2E0063BD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAB3E582BC85F2E0063BD50 = {
+			isa = PBXGroup;
+			children = (
+				ECAB3E632BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204 */,
+				ECAB3E622BC85F2E0063BD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAB3E622BC85F2E0063BD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB3E612BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAB3E632BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204 */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB3E642BC85F2E0063BD50 /* AppDelegate.swift */,
+				ECAB3E662BC85F2E0063BD50 /* SceneDelegate.swift */,
+				ECAB3E682BC85F2E0063BD50 /* ViewController.swift */,
+				ECAB3E6A2BC85F2E0063BD50 /* Main.storyboard */,
+				ECAB3E702BC85F2F0063BD50 /* Assets.xcassets */,
+				ECAB3E722BC85F2F0063BD50 /* LaunchScreen.storyboard */,
+				ECAB3E752BC85F2F0063BD50 /* Info.plist */,
+				ECAB3E6D2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodeld */,
+				ECAB3E832BC85F6D0063BD50 /* Cells */,
+				ECAB3E852BC85F6E0063BD50 /* DetailNewsTableViewCell.swift */,
+				ECAB3E7C2BC85F6C0063BD50 /* DirectionsTableViewCell.swift */,
+				ECAB3E7E2BC85F6D0063BD50 /* History.swift */,
+				ECAB3E822BC85F6D0063BD50 /* Main.swift */,
+				ECAB3E872BC85F6E0063BD50 /* Map.swift */,
+				ECAB3E7D2BC85F6C0063BD50 /* News.swift */,
+				ECAB3E862BC85F6E0063BD50 /* NewsDataTableViewCell.swift */,
+				ECAB3E812BC85F6D0063BD50 /* NewsModel.swift */,
+				ECAB3E842BC85F6D0063BD50 /* Weather.swift */,
+				ECAB3E7F2BC85F6D0063BD50 /* WeatherDetailTableViewCell.swift */,
+				ECAB3E7B2BC85F6C0063BD50 /* WeatherModel.swift */,
+				ECAB3E952BC85F7F0063BD50 /* DataSavingManager.swift */,
+				ECAB3E962BC85F7F0063BD50 /* Utils.swift */,
+			);
+			path = Mansi_Gandhi_FE_8966204;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAB3E602BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB3E782BC85F2F0063BD50 /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_FE_8966204" */;
+			buildPhases = (
+				ECAB3E5D2BC85F2E0063BD50 /* Sources */,
+				ECAB3E5E2BC85F2E0063BD50 /* Frameworks */,
+				ECAB3E5F2BC85F2E0063BD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mansi_Gandhi_FE_8966204;
+			productName = Mansi_Gandhi_FE_8966204;
+			productReference = ECAB3E612BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAB3E592BC85F2E0063BD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ECAB3E602BC85F2E0063BD50 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ECAB3E5C2BC85F2E0063BD50 /* Build configuration list for PBXProject "Mansi_Gandhi_FE_8966204" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAB3E582BC85F2E0063BD50;
+			productRefGroup = ECAB3E622BC85F2E0063BD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAB3E602BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAB3E5F2BC85F2E0063BD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB3E742BC85F2F0063BD50 /* LaunchScreen.storyboard in Resources */,
+				ECAB3E712BC85F2F0063BD50 /* Assets.xcassets in Resources */,
+				ECAB3E6C2BC85F2E0063BD50 /* Main.storyboard in Resources */,
+				ECAB3E902BC85F6E0063BD50 /* Cells in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAB3E5D2BC85F2E0063BD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB3E692BC85F2E0063BD50 /* ViewController.swift in Sources */,
+				ECAB3E652BC85F2E0063BD50 /* AppDelegate.swift in Sources */,
+				ECAB3E8F2BC85F6E0063BD50 /* Main.swift in Sources */,
+				ECAB3E8B2BC85F6E0063BD50 /* History.swift in Sources */,
+				ECAB3E912BC85F6E0063BD50 /* Weather.swift in Sources */,
+				ECAB3E8C2BC85F6E0063BD50 /* WeatherDetailTableViewCell.swift in Sources */,
+				ECAB3E8E2BC85F6E0063BD50 /* NewsModel.swift in Sources */,
+				ECAB3E6F2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodeld in Sources */,
+				ECAB3E672BC85F2E0063BD50 /* SceneDelegate.swift in Sources */,
+				ECAB3E982BC85F7F0063BD50 /* Utils.swift in Sources */,
+				ECAB3E922BC85F6E0063BD50 /* DetailNewsTableViewCell.swift in Sources */,
+				ECAB3E942BC85F6E0063BD50 /* Map.swift in Sources */,
+				ECAB3E8A2BC85F6E0063BD50 /* News.swift in Sources */,
+				ECAB3E882BC85F6E0063BD50 /* WeatherModel.swift in Sources */,
+				ECAB3E932BC85F6E0063BD50 /* NewsDataTableViewCell.swift in Sources */,
+				ECAB3E892BC85F6E0063BD50 /* DirectionsTableViewCell.swift in Sources */,
+				ECAB3E972BC85F7F0063BD50 /* DataSavingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECAB3E6A2BC85F2E0063BD50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB3E6B2BC85F2E0063BD50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECAB3E722BC85F2F0063BD50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB3E732BC85F2F0063BD50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAB3E762BC85F2F0063BD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECAB3E772BC85F2F0063BD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAB3E792BC85F2F0063BD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mansi_Gandhi_FE_8966204/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-FE-8966204";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAB3E7A2BC85F2F0063BD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mansi_Gandhi_FE_8966204/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Mansi-Gandhi-FE-8966204";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAB3E5C2BC85F2E0063BD50 /* Build configuration list for PBXProject "Mansi_Gandhi_FE_8966204" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB3E762BC85F2F0063BD50 /* Debug */,
+				ECAB3E772BC85F2F0063BD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAB3E782BC85F2F0063BD50 /* Build configuration list for PBXNativeTarget "Mansi_Gandhi_FE_8966204" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB3E792BC85F2F0063BD50 /* Debug */,
+				ECAB3E7A2BC85F2F0063BD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECAB3E6D2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECAB3E6E2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodel */,
+			);
+			currentVersion = ECAB3E6E2BC85F2E0063BD50 /* Mansi_Gandhi_FE_8966204.xcdatamodel */;
+			path = Mansi_Gandhi_FE_8966204.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECAB3E592BC85F2E0063BD50 /* Project object */;
+}
